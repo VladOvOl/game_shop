@@ -1,0 +1,22 @@
+.containerNav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+
+    a{
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+
+   
+}

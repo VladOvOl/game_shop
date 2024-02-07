@@ -1,0 +1,13 @@
+import axios from "axios";
+import { NextResponse } from "next/server";
+
+export async function GET(request:Request) {
+
+    console.log("Function enter")
+
+    let data = await axios.get('https://api.rawg.io/api/platform?key=75914cb5b1324db79e107e5342a81c47').then(data=>(data.data))
+
+    console.log("Function get api request")
+    console.log(data)
+    return NextResponse.json(data)
+}

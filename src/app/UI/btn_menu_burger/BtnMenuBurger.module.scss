@@ -1,0 +1,13 @@
+.containerImg{
+    display: none;
+
+    @media (max-width:860px) {
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,59 @@
+.containerCard{
+    width: 100%;
+
+
+    .title{
+        margin: 0 0 10px 0 ;
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.containerLink{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    gap: 5px;
+    cursor: pointer;
+
+
+    .titleLink{
+        color: white;
+    }
+
+    .link{
+        font-size: 14px;
+    }
+
+    &:hover{
+        .containerImg{
+            background-color: white;
+
+            svg{
+                 fill: black;
+             }
+         }
+        }
+    }
+
+.containerImg{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background-color: #2D2D2D;
+    border-radius: 7px;
+    transition: all 0.3s ease-in-out;
+
+    svg{
+        width: fit-content;
+        
+    }
+
+   
+    
+}
+
